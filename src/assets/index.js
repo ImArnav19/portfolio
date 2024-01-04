@@ -27,6 +27,7 @@ import sql from "./tech/sql.png"
 
 
 
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -37,6 +38,9 @@ import nss from "./company/nss.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ytube from "./ytube.png"
+import air from "./air.jpg"
+import st from "./st.jpeg"
 
 export {
   logo,
@@ -71,4 +75,7 @@ export {
   aws,
   sql,
   django,
+  ytube,
+  air,
+  st,
 };

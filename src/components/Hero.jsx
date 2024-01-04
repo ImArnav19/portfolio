@@ -16,9 +16,9 @@ const Hero = () => {
        <div>
         <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#27005D]'>Arnav</span></h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100 font-black`}>
-          I develop RESTAPIs, manage <br 
+          I like NextJs <br 
           className="sm:block hidden" />
-           databases and Dockerize stuff 
+           databases, Java and Python
         </p>
        
         </div>

@@ -27,6 +27,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    ytube,
+    air,
+    st
     
   } from "../assets";
   
@@ -107,46 +110,7 @@ import {
 
   ]
 
-  //   {
-  //     title: "React Native Developer",
-  //     company_name: "Tesla",
-  //     icon: tesla,
-  //     iconBg: "#E6DEDD",
-  //     date: "Jan 2021 - Feb 2022",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-  //   {
-  //     title: "Web Developer",
-  //     company_name: "Shopify",
-  //     icon: shopify,
-  //     iconBg: "#383E56",
-  //     date: "Jan 2022 - Jan 2023",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-  //   {
-  //     title: "Full stack Developer",
-  //     company_name: "Meta",
-  //     icon: meta,
-  //     iconBg: "#E6DEDD",
-  //     date: "Jan 2023 - Present",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-  // ];
+  
   
   const testimonials = [
     {
@@ -195,8 +159,77 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/ImArnav19/javadb1.git",
+      source_code_link: "https://github.com/sarthakmahale123/blood-bank-management",
     },
+
+    {
+      name: "NextJS Airbnb Place Renting site",
+      description:
+        "NextJs Fullstack Clone of Airbnb website with Prisma, Oauth,React,Typescript,tailwind",
+      tags: [
+        {
+          name: "NextJS,ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "red-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "green-text-gradient",
+        },
+      ],
+      image:air,
+      source_code_link: "https://rent-arnav.vercel.app/",
+    },
+
+    {
+      name: "End to End AWS Youtube Analysis",
+      description:
+        "Youtube Api analysis for the demanding videos with live data streaming on Aws with crawler and Athene for querying",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "red-text-gradient",
+        },
+        {
+          name: "AWS Athena,Quicksight,Glue",
+          color: "green-text-gradient",
+        },
+      ],
+      image: ytube,
+      source_code_link: "https://github.com/ImArnav19/YTube-Aws-analysis",
+    },
+
+    {
+      name: "Streamlit Data Cleaning and Mining Tool",
+      description:
+        "Functions Warehousing, with Regression,Clustering,Data Cleaning, Binning, Visualization tool with interacite graphs to analyze and perform mining operations on excel data.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Streamlit",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Matplotlib,pandas,Scikit-learn",
+          color: "green-text-gradient",
+        },
+      ],
+      image:st,
+      source_code_link: "https://github.com/ImArnav19/st_app/tree/main",
+    },
+
+
+
     {
       name: "AQI Prediction",
       description:
@@ -218,27 +251,9 @@ import {
       image: jobit,
       source_code_link: "https://github.com/ImArnav19/apsit_hack.git",
     },
-    {
-      name: "Django Recipe App",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "django",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    
+      
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
