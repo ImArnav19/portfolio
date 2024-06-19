@@ -245,7 +245,7 @@ import {
         },
         {
           name: "sqlite",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: jobit,
